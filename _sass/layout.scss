@@ -7,10 +7,10 @@ html, body {
 
 /* Navigation */
 
-#nav, #nav-left { 
+#nav, #nav-left {
   a {
     display: block;
-    color: $background-color;
+    color: darken($link-color, 20%);
     padding: 0.33334em 0;
     font-size: 1.5em;
     font-weight: 400;
@@ -94,7 +94,7 @@ html, body {
        -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
-    background-color: $background-color;
+    background-color: darken($link-color, 10%);
   }
   &.btn-close:after {
     top: -4px;
@@ -102,7 +102,7 @@ html, body {
        -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
-    background-color: $background-color;
+    background-color: darken($link-color, 10%);
   }
 }
 
@@ -260,7 +260,7 @@ footer {
 }
 
 #wrap {
-	min-height:100%; 
+	min-height:100%;
 	position:relative;
 	padding-bottom: 105px;
 }
