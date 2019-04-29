@@ -9,7 +9,7 @@ order: 3
 	{% for bot in site.bots %}
 		<a href="{% if site.baseurl == "/" %}{{ bot.url }}{% else %}{{ bot.url | prepend: site.baseurl }}{% endif %}">
 			<div>
-			  <div class="bot-thumbnail" style="background-image: url('/img/bots/{{ bot.thumbnail }}')">
+			  <div class="bot-thumbnail" style="background-image: url('{{ site.url }}/img/bots/{{ bot.thumbnail }}')">
 
 			  </div>
 				<div class="bot-label">
