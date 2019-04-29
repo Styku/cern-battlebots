@@ -1,7 +1,7 @@
 # Site settings
 title: CERN Battlebots
 description: "Knowledge base for Battlebots league at CERN"
-url:
+url: /cern-battlebots
 author:
   name: "Bartlomiej Styczen"
   email: "bartlomiej.styczen@cern.ch"
