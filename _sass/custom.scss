@@ -1,3 +1,33 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+
+.bot-thumbnail {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 150%;
+  width: 200px;
+  height: 160px;
+}
+
+.bot-thumbnail:hover {
+  background-color: #4A4A4A;
+}
+
+.bot-label {
+  background-color: #222;
+  color: #fff;
+  border-radius: 0px 0px 5px 5px;
+  padding: 0px;
+  font-size: 150%;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+#bots {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 200px);
+}
