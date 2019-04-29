@@ -1,1 +1,38 @@
-theme: jekyll-theme-midnight
+# Site settings
+title: CERN Battlebots
+description: "Knowledge base for Battlebots league at CERN"
+url:
+author:
+  name: "Bartlomiej Styczen"
+  email: "bartlomiej.styczen@cern.ch"
+  url:
+
+# Build settings
+baseurl: /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: true
