@@ -2,6 +2,7 @@
 layout: page
 title: Getting started
 order: 1
+icon: far fa-list-alt
 ---
 # Getting started
 A short summary of what you need to know and what you need to have in order to

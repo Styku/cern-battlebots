@@ -2,6 +2,7 @@
 layout: page
 title: Components
 order: 2
+icon: fas fa-shopping-cart
 ---
 # Getting started
 A short summary of what you need to know and what you need to have in order to

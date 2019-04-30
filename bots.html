@@ -2,12 +2,13 @@
 layout: page
 title: Bots
 order: 3
+icon: fas fa-robot
 ---
 <!-- Bots -->
 <div id="bots">
 
 	{% for bot in site.bots %}
-		<a href="{{ site.baseurl }}{{ bot.url }}">
+		<a href="{{ site.url }}{{ bot.url }}">
 			<div>
 			  <div class="bot-thumbnail" style="background-image: url('{{ site.url }}/img/bots/{{ bot.thumbnail }}')">
 
