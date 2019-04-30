@@ -39,4 +39,6 @@ reverse: true
 
 
 collections:
-- bots
+  bots:
+    output: true
+    permalink: /bots/:path/
