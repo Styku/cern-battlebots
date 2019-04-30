@@ -97,3 +97,39 @@
 .contact-form input[type=button]:hover{
 background: $main-color;
 }
+
+.part{
+  width: 100%;
+  margin: 20px auto;
+  border-spacing: 0px;
+}
+
+.part td{
+  padding: 6px;
+}
+
+.part .part-link{
+  width: 20%;
+  text-align: right;
+  border-right: 1px solid $main-color;
+}
+
+.part .part-weight{
+  width: 40%;
+  border-left: 1px solid $main-color;
+}
+
+.part .part-description{
+  border-left: 1px solid $main-color;
+  border-right: 1px solid $main-color;
+  border-bottom: 1px solid $main-color;
+}
+
+.part .part-name{
+  font-weight: bold;
+  background-color: $main-color;
+}
+
+.icon{
+  margin-right: 3px;
+}

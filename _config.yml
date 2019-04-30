@@ -42,3 +42,6 @@ collections:
   bots:
     output: true
     permalink: /bots/:path/
+  parts:
+    output: true
+    permalink: /parts/:path/
