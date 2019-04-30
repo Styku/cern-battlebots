@@ -1,5 +1,6 @@
 var normal = document.getElementById("nav-menu");
 var reverse = document.getElementById("nav-menu-left");
+var mobile = window.innerWidth < 800 ? true : false;
 
 var icon = normal !== null ? normal : reverse;
 
@@ -11,7 +12,7 @@ function toggle() {
 
 	  var button = document.getElementById("menu");
 	  var site = document.getElementById("wrap");
-	  
+
 	  if (nav.className == "menu-open" || nav.className == "menu-open-left") {
 	  	  nav.className = "";
 	  	  button.className = "";
@@ -39,3 +40,7 @@ function menuClick() {
 }
 
 menuClick();
+if(!mobile)
+{
+	toggle();
+}
