@@ -7,7 +7,12 @@ layout: default
 # Timmy build guide
 [work in progress]
 
-Here you'll find a step by step guide to build Timmy.
+Here you'll find a step by step guide to build Timmy. Actually, it's very short:
+1. Get all of the components
+2. Print the chassi
+3. Solder electronics together (there will be a more detailed guide on this soon!)
+4. Program the transmitter
+
 ## Required components
 * 2x [Turnigy 15mm 75:1 motor]({{ site.url }}/parts#turnigy-motor-15mm-75-1){:target="_blank"}
 * 2x [Brushed ESC]({{ site.url }}/parts#generic-brushed-esc){:target="_blank"}
@@ -19,7 +24,10 @@ Here you'll find a step by step guide to build Timmy.
 * 3x 2.5 x 16mm wood screws
 
 ## Printing
-OnShape project: [Link](https://cad.onshape.com/documents/876aae336eb09ce6dbed248a/w/df23d79c1c15b5b48407cba3/e/a6816d4151a04fb3a5ee5f1b){:target="_blank"}
+Download the .stl files [here](https://github.com/Styku/cern-battlebots/tree/master/download/stls/timmy){:target="_blank"} 
+or get a [zipped](https://github.com/Styku/cern-battlebots/raw/master/download/stls/timmy/timmy-stl.zip){:target="_blank"} 
+version. If you want to modify the design, feel free to fork the 
+[OnShape project](https://cad.onshape.com/documents/876aae336eb09ce6dbed248a/w/df23d79c1c15b5b48407cba3/e/a6816d4151a04fb3a5ee5f1b){:target="_blank"}.
 
 ### Chassi
 All parts can be printed either with PLA, ABS or PETG. Original Timmy was
