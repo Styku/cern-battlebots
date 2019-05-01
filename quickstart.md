@@ -17,7 +17,7 @@ antweight robot.
 
 ## Mechanical design
 If you are not accustomed with CAD software and want to get a bot as fast 
-as possible, head to one of our exisitng [bot guides]({{ site.url }}/bots}).
+as possible, head to one of our exisitng [bot guides]({{ site.url }}/bots).
 They will contain the 3D designs required for printing the bot chassis, 
 part listings and other usefull information. You will still need to come 
 back here to learn how to put the electronics together, bind the 
