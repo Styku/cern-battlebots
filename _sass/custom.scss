@@ -125,11 +125,28 @@ background: $main-color;
   border-bottom: 1px solid $main-color;
 }
 
-.part .part-name{
+.part .part-name, .part .part-top{
   font-weight: bold;
   background-color: $main-color;
+}
+
+.part .part-top{
+  text-align: right;
+}
+
+.part .part-name:target{
+  font-weight: bold;
+  color: lighten($target-color,5%);
+}
+
+.part .part-name:target::before{
+  content: " > ";
 }
 
 .icon{
   margin-right: 3px;
 }
+
+ul{
+  margin-left: 40px;
+} 

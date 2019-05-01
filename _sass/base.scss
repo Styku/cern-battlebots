@@ -22,6 +22,7 @@ $main-color: #232b2b;
 $background-color: #353839;
 $text-color: #eeeeee;
 $link-color: #ffffff;
+$target-color: #ffd36b;
 
 /*- Base settings -*/
 
@@ -43,6 +44,6 @@ a {
 	font-weight: 700;
 	&:hover,
 	&:focus {
-		color: darken($main-color, 5%);
+		color: $target-color;
 	}
 }
