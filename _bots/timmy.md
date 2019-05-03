@@ -1,11 +1,13 @@
 ---
 title: Timmy
 thumbnail: timmy.png
-layout: default
+layout: guide
 ---
 
-# Timmy build guide
-1. Table of contents
+
+### Table of contents
+{: .no_toc}
+1. TOC
 {:toc}
 
 ## Required components
@@ -18,6 +20,18 @@ layout: default
 * [Turnigy i6 receiver ]({{ site.url }}/parts#turnigy-i6-rx)
 * 3x 2.5 x 8mm wood screws
 * 3x M3 nut
+
+## Required tools
+These will be absolutely necessary:
+* Soldering iron
+* Precision screwdriver (with Torx bits)
+* Pliers or spanner for M3 nuts
+
+And this are not, but will help:
+* Hand file
+* Hot glue gun
+* Plumber's wrench
+* Instant glue (any cyanoacrylate, eg. Superglue)
 
 ## Printing
 Download the .stl files [here](https://github.com/Styku/cern-battlebots/tree/master/download/stls/timmy){:target="_blank"}
@@ -109,6 +123,10 @@ over the weapon motor. Use a M3 nut to distance it from the cover so it does not
 push against the motor.**
 
 ### Wheels
+Glue some rubber around them. You can also use an old inner tube for a bike,
+just cut it in about 8mm wide rings, stretch them and place and put them on.
+They should hold nicely by themselves, no glue necessary.
+
 If you printed them with layer height 0.2mm, they should snap right onto the
 shafts with a bit of pressure and stay there. Drop of instant glue may be used
 in addition if they are too loose. I personally have not glued them for the ease
