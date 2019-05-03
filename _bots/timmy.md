@@ -68,17 +68,17 @@ you read here and do it your way if you feel like it.
 1.  Screw an M3 nut onto the motor shaft. At this point you may want to fix the
     stator in place, for example by clamping it with plumber's wrench:
 
-    ![Fix M3 nut](/img/bots/timmy/blade1.jpg)
+    ![Fix M3 nut]({{ site.url }}/img/bots/timmy/blade1.jpg)
 
 2.  Fix the printed part that has an M3 shaped slot in it. The nut you just
     fixed should fit right in there.
 
-    ![Fix bottom part of the adapter](/img/bots/timmy/blade2.jpg)
+    ![Fix bottom part of the adapter]({{ site.url }}/img/bots/timmy/blade2.jpg)
 
 3.  Put the blade on. No need to care about the rotation direction too much,
     you'll be able to configure it with the transmitter.
 
-    ![Add the blade](/img/bots/timmy/blade3.jpg)
+    ![Add the blade]({{ site.url }}/img/bots/timmy/blade3.jpg)
 
 4.  Now you have two options: 1) you can use instant glue to lock the blade
     in place between two 3D printed plastic parts, 2) you can add a layer of rubber
@@ -87,7 +87,7 @@ you read here and do it your way if you feel like it.
     Second option also acts as a safety clutch - it will prevent you from stalling
     and burning the motor, but at the same time make the weapon less effective.
 
-    ![Add the blade](/img/bots/timmy/blade4.jpg)
+    ![Add the blade]({{ site.url }}/img/bots/timmy/blade4.jpg)
 
 ### Chassis
 Not much to be said here, just cram the soldered electronics inside. There are
@@ -99,7 +99,7 @@ was included with the [brushed ESC]({{ site.url }}/parts#generic-brushed-esc).
 Guide the brushless ESC cables through the opening in the weapon motor slot like
 this:
 
-![Guide cables](/img/bots/timmy/blade-cables.jpg)
+![Guide cables]({{ site.url }}/img/bots/timmy/blade-cables.jpg)
 
 Then, connect them to the motor. Put the motor in place and fix it with screws
 that came with it.
@@ -109,14 +109,14 @@ some hot glue (you should at least glue the master switch if you decided to
 include it). Just be careful not to immobilize either the drive motor gearbox
 or master switch moving part.
 
-![Glue the motor](/img/bots/timmy/motors.jpg)
+![Glue the motor]({{ site.url }}/img/bots/timmy/motors.jpg)
 
-![Glue the switch](/img/bots/timmy/master-switch.jpg)
+![Glue the switch]({{ site.url }}/img/bots/timmy/master-switch.jpg)
 
 Now cram down all the rest. Don't worry too much if some cable stick out, they
 will be squeezed by the top cover.
 
-![Guide cables](/img/bots/timmy/internals.jpg)
+![Guide cables]({{ site.url }}/img/bots/timmy/internals.jpg)
 
 Put the top cover and screw it with 2.5mm wood screws. **Be careful with the one
 over the weapon motor. Use a M3 nut to distance it from the cover so it does not
@@ -135,4 +135,4 @@ of replacement. If the wheels do not fit, try filing the slot a bit.
 ## Finished build
 There you go, what you have should resemble this guy:
 
-![Guide cables](/img/bots/timmy/complete.jpg)
+![Guide cables]({{ site.url }}/img/bots/timmy/complete.jpg)
