@@ -149,4 +149,9 @@ background: $main-color;
 
 ul, ol{
   margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+#page > ul, #page > ol{
+  margin-bottom: 20px;
 }

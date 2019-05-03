@@ -27,7 +27,7 @@ These will be absolutely necessary:
 * Precision screwdriver (with Torx bits)
 * Pliers or spanner for M3 nuts
 
-And this are not, but will help:
+And these are not, but will help:
 * Hand file
 * Hot glue gun
 * Plumber's wrench
