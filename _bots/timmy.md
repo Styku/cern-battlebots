@@ -39,10 +39,10 @@ or get a [zipped](https://github.com/Styku/cern-battlebots/raw/master/download/s
 version. If you want to modify the design, feel free to fork the
 [OnShape project](https://cad.onshape.com/documents/876aae336eb09ce6dbed248a/w/df23d79c1c15b5b48407cba3/e/a6816d4151a04fb3a5ee5f1b){:target="_blank"}.
 
-### Chassi
+### Chassis
 All parts can be printed either with PLA, ABS or PETG. Original Timmy was
-printed with PETG. __Chassi__ and its cover should be printed with layer height
-<= 0.35 mm. For chassi, use supports.
+printed with PETG. __Chassis__ and its cover should be printed with layer height
+<= 0.35 mm. For chassis, use supports.
 
 ### Wheels
 For best traction, you will need to attach some additional rubber using instant
@@ -113,7 +113,7 @@ or master switch moving part.
 
 ![Glue the switch]({{ site.url }}/img/bots/timmy/master-switch.jpg)
 
-Now cram down all the rest. Don't worry too much if some cable stick out, they
+Now cram down all the rest. Don't worry too much if some cables stick out, they
 will be squeezed by the top cover.
 
 ![Guide cables]({{ site.url }}/img/bots/timmy/internals.jpg)
