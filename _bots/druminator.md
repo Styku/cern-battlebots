@@ -1,5 +1,6 @@
 ---
 title: Druminator
-layout: default
+layout: guide
+category: Antweight
 ---
-Druminator build guide
+[TO-DO]

@@ -2,6 +2,7 @@
 title: Timmy
 thumbnail: timmy.png
 layout: guide
+category: Antweight
 ---
 
 

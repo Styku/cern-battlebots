@@ -1,5 +1,6 @@
 ---
 title: Daniel
-layout: default
+layout: guide
+category: Antweight
 ---
-Daniel build guide
+[TO-DO]
