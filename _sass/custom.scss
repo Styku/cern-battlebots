@@ -9,20 +9,36 @@
   font-size: 150%;
   width: 200px;
   height: 160px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .bot-thumbnail:hover {
   background-color: #4A4A4A;
 }
 
+.bot-description {
+  background-color: #222;
+  color: #ccc;
+  border-radius: 0px 0px 5px 5px;
+  padding: 0px 10px 3px 10px;
+  font-size: 12px;
+  font-weight: normal;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+}
+
 .bot-label {
   background-color: #222;
   color: #fff;
-  border-radius: 0px 0px 5px 5px;
   padding: 0px;
-  font-size: 150%;
+  font-size: 24px;
   width: 200px;
-  height: 40px;
+  height: 28px;
+  border-radius: 0px;
+  margin: 0px;
+
   text-align: center;
 }
 

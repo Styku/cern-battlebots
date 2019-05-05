@@ -11,11 +11,13 @@ icon: fas fa-robot
 		<a href="{{ site.url }}{{ bot.url }}">
 			<div>
 			  <div class="bot-thumbnail" style="background-image: url('{{ site.url }}/img/bots/{{ bot.thumbnail }}')">
-
 			  </div>
 				<div class="bot-label">
 			  	{{ bot.title }}
 			  </div>
+				<div class="bot-description">
+					<i class="fas fa-balance-scale icon"></i>	{{ bot.category }}
+				</div>
 			</div>
 		</a>
     {% endfor %}
