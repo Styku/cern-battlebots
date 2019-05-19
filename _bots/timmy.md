@@ -13,17 +13,18 @@ partlist: "turnigy-motor-15mm-75-1,generic-brushed-esc,brushless-d2205,afro-esc-
 {:toc}
 
 ## Required components
-* 2x [Turnigy 15mm 75:1 motor]({{ site.url }}/parts#turnigy-motor-15mm-75-1)
-* 2x [Brushed ESC]({{ site.url }}/parts#generic-brushed-esc)
-* [Brushless motor]({{ site.url }}/parts#brushless-d2205)
-* [Brushless ESC]({{ site.url }}/parts#afro-esc-12amp)
-* [Saw blade]({{ site.url }}/parts#dexter-disc-85mm)
-* [Turnigy NanoTech 2S LiPo ]({{ site.url }}/parts#nanotech-2s-370mah)
-* [Turnigy i6 receiver ]({{ site.url }}/parts#turnigy-i6-rx)
-* 3x 2.5 x 8mm wood screws
-* 3x M3 nut
+<ul>
+{% include part-tooltip.html part = "turnigy-motor-15mm-75-1" pref = "2x" %}
+{% include part-tooltip.html part = "generic-brushed-esc" pref = "2x" %}
+{% include part-tooltip.html part = "brushless-d2205" %}
+{% include part-tooltip.html part = "afro-esc-12amp" %}
+{% include part-tooltip.html part = "dexter-disc-85mm" %}
+{% include part-tooltip.html part = "nanotech-2s-370mah" %}
+{% include part-tooltip.html part = "turnigy-i6-rx" %}
+<li>3x 2.5 x 8mm wood screws</li>
+<li>3x M3 nut</li>
+</ul>
 
-{% include part-list.html parts = page.partlist %}
 
 ## Required tools
 These will be absolutely necessary:

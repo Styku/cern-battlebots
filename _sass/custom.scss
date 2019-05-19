@@ -122,6 +122,7 @@ background: $main-color;
 
 .part td{
   padding: 6px;
+  background-color: $background-color;
 }
 
 .part .part-link{
@@ -188,4 +189,23 @@ ul, ol{
 
 .hidden{
   display: none;
+}
+
+.tooltip {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-content {
+  visibility: hidden;
+  width: 100%;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-content {
+  visibility: visible;
 }
