@@ -1,0 +1,11 @@
+<div class="togglable">
+    <span class="title"><a class="hide-summary" onclick="toggleVisibility('parts-summary')">Click to show/hide parts details</a></span> 
+    <div id="parts-summary" class="hidden">
+    {% assign arr =  include.parts | split: ','%}
+    {% for item in arr %}
+    {% assign path = item | prepend: "_parts/" | append : ".md"%}
+    {% assign p = site.parts | where: "path", {{path}} | first %}
+    {% include part.html part=p %}
+    {% endfor %}
+    </div>
+</div>

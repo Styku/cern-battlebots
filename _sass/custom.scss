@@ -171,3 +171,21 @@ ul, ol{
 #page > ul, #page > ol{
   margin-bottom: 20px;
 }
+
+#parts-summary {
+  margin: 10px;
+}
+
+.togglable {
+  border: 1px $main-color solid;
+}
+
+.togglable .title{
+  display: block;
+  padding: 5px;
+  background-color: $main-color;
+}
+
+.hidden{
+  display: none;
+}

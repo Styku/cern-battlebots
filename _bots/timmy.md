@@ -3,6 +3,7 @@ title: Timmy
 thumbnail: timmy.png
 layout: guide
 category: Antweight
+partlist: "turnigy-motor-15mm-75-1,generic-brushed-esc,brushless-d2205,afro-esc-12amp,dexter-disc-85mm,nanotech-2s-370mah,turnigy-i6-rx"
 ---
 
 
@@ -21,6 +22,8 @@ category: Antweight
 * [Turnigy i6 receiver ]({{ site.url }}/parts#turnigy-i6-rx)
 * 3x 2.5 x 8mm wood screws
 * 3x M3 nut
+
+{% include part-list.html parts = page.partlist %}
 
 ## Required tools
 These will be absolutely necessary:

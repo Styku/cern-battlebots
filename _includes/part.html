@@ -1,0 +1,14 @@
+<table class="part">
+	<tr>
+		<td colspan="2" class="part-name" id="{{ include.part.path | split: '/' | last | split: '.' | first }}">{{ include.part.name }}</td>
+		<td class="part-top"><a href="#top"><i class="fas fa-arrow-up"></i></a></td>
+	</tr>
+	<tr>
+		<td class="part-weight"><i class="fas fa-balance-scale icon"></i> {{ include.part.weight }}</td>
+		<td class="part-category"><i class="fas fa-cog icon"></i>{{ include.part.category }}</td>
+		<td class="part-link"><a href="{{ include.part.link }}" target="_blank"><i class="fas fa-link icon"></i>Link</a></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="part-description">{{ include.part.content }}</td>
+	</tr>
+</table>
