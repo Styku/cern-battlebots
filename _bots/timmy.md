@@ -14,13 +14,13 @@ partlist: "turnigy-motor-15mm-75-1,generic-brushed-esc,brushless-d2205,afro-esc-
 
 ## Required components
 <ul>
-{% include part-tooltip.html part = "turnigy-motor-15mm-75-1" pref = "2x" %}
-{% include part-tooltip.html part = "generic-brushed-esc" pref = "2x" %}
-{% include part-tooltip.html part = "brushless-d2205" %}
-{% include part-tooltip.html part = "afro-esc-12amp" %}
-{% include part-tooltip.html part = "dexter-disc-85mm" %}
-{% include part-tooltip.html part = "nanotech-2s-370mah" %}
-{% include part-tooltip.html part = "turnigy-i6-rx" %}
+{% include part-detail.html part = "turnigy-motor-15mm-75-1" pref = "2x" %}
+{% include part-detail.html part = "generic-brushed-esc" pref = "2x" %}
+{% include part-detail.html part = "brushless-d2205" %}
+{% include part-detail.html part = "afro-esc-12amp" %}
+{% include part-detail.html part = "dexter-disc-85mm" %}
+{% include part-detail.html part = "nanotech-2s-370mah" %}
+{% include part-detail.html part = "turnigy-i6-rx" %}
 <li>3x 2.5 x 8mm wood screws</li>
 <li>3x M3 nut</li>
 </ul>

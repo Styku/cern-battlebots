@@ -1,0 +1,10 @@
+{% assign path = include.part | prepend: "_parts/" | append : ".md"%}       
+{% assign p = site.parts | where: "path", {{path}} | first %}
+<div class="togglable">
+    <li onclick="toggleVisibility('part-{{include.part}}')" class="detailed-part">{{ include.pref }} {{ p.title }} 
+        <a href="{{ site.url }}/parts#{{include.part}}"><i class="fas fa-external-link-square-alt"></i></a>
+        </li>
+    <div id="part-{{include.part}}" class="hidden">
+        {% include part.html part=p %}
+    </div>
+</div>

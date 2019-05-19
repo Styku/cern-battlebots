@@ -177,10 +177,6 @@ ul, ol{
   margin: 10px;
 }
 
-.togglable {
-  border: 1px $main-color solid;
-}
-
 .togglable .title{
   display: block;
   padding: 5px;
@@ -208,4 +204,8 @@ ul, ol{
 
 .tooltip:hover .tooltip-content {
   visibility: visible;
+}
+
+.detailed-part:hover{
+  background-color: lighten($background-color, 10%);
 }
