@@ -1,8 +1,8 @@
 {% assign path = include.part | prepend: "_parts/" | append : ".md"%}       
 {% assign p = site.parts | where: "path", {{path}} | first %}
 <div class="tooltip">
+    <li>{{ include.pref }} <a href="{{ site.url }}/parts#{{include.part}}">{{ p.title }}</a></li>
     <span class="tooltip-content">
             {% include part.html part=p %}
     </span>
-    <li>{{ include.pref }} <a href="{{ site.url }}/parts#{{include.part}}">{{ p.title }}</a></li>
 </div>
