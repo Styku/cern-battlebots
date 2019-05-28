@@ -13,7 +13,7 @@ layout: default
 				{% if post.content contains "<!-- more -->" %}
 				{{ post.content | split:"<!-- more -->" | first % }}
 				<div style="text-align:right;">
-					<a href="{{ post.url }}"> Read more</a>
+					<a href="{{site.url}}/{{ post.url }}"> Read more</a>
 				</div>
 				{% else %}
 					{{ post.content }}
