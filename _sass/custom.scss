@@ -209,3 +209,15 @@ ul, ol{
 .detailed-part:hover{
   background-color: lighten($background-color, 10%);
 }
+
+.youtube
+{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.post-summary p
+{
+  text-align: justify;
+}
